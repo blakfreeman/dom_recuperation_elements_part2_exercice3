@@ -29,8 +29,10 @@ liTolastUpercast.forEach(e => {
 let maj = e.innerText.slice(-1,x).toUpperCase();
 let min =e.innerText.slice(x,-1);
 
-    console.log(e.innerText.charAt(x).toLocaleUpperCase());
+    console.log(min+ maj);
 });
+
+
 
 //6
 
