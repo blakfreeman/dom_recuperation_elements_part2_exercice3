@@ -22,12 +22,15 @@ console.log(liClass);
 
 //5
 
-// // // let liTolastUpercast = Array.from(document.querySelectorAll("li"));
+ let liTolastUpercast = Array.from(document.querySelectorAll("li"));
 
-// // // liTolastUpercast.forEach(e => {
-// // //     x = e.length;
-// // //     console.log(e.innerText.charAt(x).toLocaleUpperCase());
-// // // })
+liTolastUpercast.forEach(e => {
+    x = e.length;
+let maj = e.innerText.slice(-1,x).toUpperCase();
+let min =e.innerText.slice(x,-1);
+
+    console.log(e.innerText.charAt(x).toLocaleUpperCase());
+});
 
 //6
 
